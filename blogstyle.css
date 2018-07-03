@@ -1,0 +1,62 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(wallpaper2.jpg) no-repeat;
+  background-size: cover;
+}
+.topnavbar{
+  font-family: 'Athiti';
+  width: 100%;
+  display: inline-block;
+  margin: 0 0  0;
+  padding: 0;
+  background-color: rgba(0,0,0,0.65);
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+  text-align: center;
+}
+.topnavbar ul{
+  list-style: none
+  width: 800px;
+  margin: 0 auto;
+  padding: 0;
+}
+.topnavbar li {
+  display: inline-block;
+}
+.topnavbar a{
+  display: block;
+  padding: 20px 50px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.topnavbar a.hover {
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+}
+.topnavbar a.active {
+  color: #FFFFFF;
+  background-color: rgba(0,0,0,0);
+  font-size: 133%;
+}
+.leftcolumn { 
+  margin: auto;
+  text-align: center;
+  width: 66%;
+}
+.fakeimg {
+  background-color: rgba(0,0,0,0);
+  height: 55%;
+  width: 55%;
+  padding: 10px;
+  margin: auto;
+}
+.card {
+  background-color: rgba(255,255,255,0.95);
+  padding: 40px;
+  margin-top: 20px;
+}
+.leftcolumn p {
+	color: #000000;
+}
