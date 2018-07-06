@@ -2,7 +2,7 @@ body{
   margin: 0;
   padding: 0;
   background: url(wallpaper2.jpg) no-repeat;
-  background-size: cover;
+  background-size: 100% auto;
 }
 .topnavbar{
   font-family: 'Athiti';
