@@ -42,29 +42,6 @@ body{
   background-color: rgba(0,0,0,0);
   font-size: 133%;
 }
-.leftcolumn { 
-  font-family: 'Athiti';
-  margin: auto;
-  margin-top: 4%;
-  margin-bottom: 4%;
-  text-align: center;
-  width: 66%;
-}
-.welcome {
-  background-color: rgba(255,255,255,0.95);
-  padding: 40px;
-  margin-top: 20px;
-  margin-bottom: 25%;
-}
-.card {
-  background-color: rgba(255,255,255,0.95);
-  padding: 40px;
-  margin-top: 20px;
-  text-align: left;
-}
-.leftcolumn p {
-	color: #000000;
-}
 .box{
   width: 450px;
   background: rgba(0, 0, 0, 0.55);
