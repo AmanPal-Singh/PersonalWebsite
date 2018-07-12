@@ -90,7 +90,7 @@ ul{
   color: #b9b9b9;
 }
 .dropdown-button {
-    background-color: rgba(0,0,0,100);
+    background-color: rgba(0,0,0,0.85);
     color: white
     padding: 10 px;
     font-size 25px;
