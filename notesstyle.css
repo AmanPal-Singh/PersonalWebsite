@@ -65,8 +65,7 @@ body{
 }
 .box h3{
   font-size: 20px;
-  letter-spacing: 3px;
-  font-weight: 100;
+  letter-spacing: 3px;  font-weight: 100;
 }
 .box p{
   text-align: justify;
@@ -90,20 +89,20 @@ ul{
   color: #b9b9b9;
 }
 .dropdown-button {
-    background-color: rgba(0,0,0,0.85);
+    background-color: rgba(0,0,0,1);
     color: white
     padding: 10 px;
     font-size 25px;
     border: none
 }
 .dropdown{
-  position" relative;
+  position: relative;
   display: inline-block;
 }
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.55);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
