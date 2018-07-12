@@ -82,7 +82,7 @@ ul{
 }
 .box li a{
   color: white;
-  text-decoration: none;
+  text-decoration: bold, underline;
   font-size: 60px;
   transition: all ease-in-out 250ms;
 }
