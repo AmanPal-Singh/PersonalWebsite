@@ -50,13 +50,6 @@ body{
   text-align: center;
   width: 66%;
 }
-.fakeimg {
-  background-color: rgba(0,0,0,0);
-  height: 55%;
-  width: 55%;
-  padding: 10px;
-  margin: auto;
-}
 .welcome {
   background-color: rgba(255,255,255,0.95);
   padding: 40px;
@@ -69,9 +62,53 @@ body{
   margin-top: 20px;
   text-align: left;
 }
-.post-title{
-	color: #000000
-}
 .leftcolumn p {
 	color: #000000;
+}
+.box{
+  width: 450px;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h3{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: #b9b9b9;
 }
