@@ -69,8 +69,7 @@ body{
 .box{
   width: 450px;
   background: rgba(0, 0, 0, 0.55);
-  padding: 30px;
-  text-align: center;
+  padding: 30px;  text-align: center;
   margin: auto;
   margin-top: 4%;
   margin-bottom: 4%;
@@ -130,5 +129,6 @@ ul{
 }
 .header {
   text-align: center;
+  color: black;
 
 }
