@@ -35,3 +35,196 @@
   </div>
 </div>
 </html>
+-------------
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="https://use.fontawesome.com/d1341f9b7a.js"> </script>
+		<link rel="stylesheet" href="style.css">
+		<link href='https://fonts.googleapis.com/css?family=Athiti' rel='stylesheet'>
+		<title> Aman Singh </title>
+	</head>
+
+<body>
+
+<div class="parallax">
+</div>
+
+<div class="topnavbar">
+	<ul>
+	<li><a class = "active" href ="index.html">ABOUT</a></li>
+	<li><a  href="projects.html">PROJECTS</a></li>
+	<li><a  href="AmanSinghResume.pdf" target="_blank">RESUME</a></li>
+	<li><a  href="blog.html">BLOG</a></li>
+	<li><a  href="notes.html">NOTES</a></li>
+	</ul>
+</div>
+
+<div class="box">
+	<img  src="amanpic.png" alt="" class="box-img">
+	<h1> Aman Singh </h1>
+	<h3> Computer Science </h3>
+	<p> I am a first year Computer Science student at the University of Waterloo, whose interests include AI/machine learning, data science, and embedded systems. Outside of coding, I love travelling, cycling, cooking, and reading.  </p>
+<ul>
+	<li> <a href= "https://www.linkedin.com/in/aman-pal-singh/"> <i class="fa fa-linkedin"></i> </a> </li>
+	<li> <a href= "https://github.com/AmanPal-Singh"> <i class="fa fa-github"></i> </a> </li>
+	<li> <a href= "mailto:amanpal_singh@outlook.com"> <i class="fa fa-envelope-square"></i> </a> </li>
+</ul>
+</div>
+
+<div class="parallax">
+</div>
+
+</body>
+</html>
+----------
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.parallax {
+  background-image: url(wallpaper2.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.topnavbar{
+  font-family: 'Athiti';
+  width: 100%;
+  display: inline-block;
+  margin: 0 0  0;
+  padding: 0;
+  background-color: rgba(0,0,0,0.65);
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+  text-align: center;
+}
+.topnavbar ul{
+  list-style: none
+  width: 800px;
+  margin: 0 auto;
+  padding: 0;
+}
+.topnavbar li {
+  display: inline-block;
+}
+.topnavbar a{
+  display: block;
+  padding: 20px 50px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.topnavbar a: hover {
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+}
+.topnavbar a.active {
+  color: #FFFFFF;
+  background-color: rgba(0,0,0,0);
+  font-size: 133%;
+}
+.box{
+  width: 450px;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h3{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: #b9b9b9;
+}
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" content= "width =device-width, initial-scale = ">
+		<script src="https://use.fontawesome.com/d1341f9b7a.js"> </script>
+		<link rel="stylesheet" href="style.css">
+		<link href='https://fonts.googleapis.com/css?family=Athiti' rel='stylesheet'>
+		<title> Aman Singh </title>
+	</head>
+
+<body>
+<div class="parallax"></div>
+
+<div class="card">
+	<p1>Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+	</p1>
+</div>
+
+<div class="parallax"></div>
+</body>
+</html>
+
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background: url('portlandjapanesegarden.jpg');
+    background-size: 100% auto;
+
+    /* Full height */
+    height: 100%; 
+    width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+  height:1000px;
+  background-color: red;
+  font-size: 36px;
+}
+
