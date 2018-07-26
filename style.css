@@ -6,8 +6,7 @@ body{
 
 .background{
     background-image: url("wallpaper2.jpg");
-    <!-- min-height: 800px; -->
-    height: 100vh;
+    min-height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -36,7 +35,6 @@ body{
   right: 0px;
   width: 55%;
   min-height: 800px;
-  height: 100vh;
   background: rgba(0, 0, 0, 0.8);
   padding-left: 25px;  
   margin: none;
