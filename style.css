@@ -28,7 +28,7 @@ body{
   background-color: transparent;
   position: absolute;
   left: 0px;
-  width: 50%;
+  width: 45%;
 }
 .box{
   position: absolute;
@@ -94,9 +94,59 @@ ul{
   color: white;
   margin: none;
 }
+.s-about {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  position: absolute;
+  z-index: 500;
+  display: table;
+}
+.s-projects{
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  position: absolute;
+  z-index: 500;
+  display: table;
+}
+.s-work{
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  position: absolute;
+  z-index: 500;
+  display: table;
+}
+.aboutpicture{
+  position: absolute;
+  right: 0px;
+  width: 50%;
+  text-align: center;
+}
+.about-image{
+  border-radius: 10%;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+.text-block{
+  position: absolute;
+  left: 0px;
+  width: 50%;
+  padding: 10px;
+}
+.section-text {
+  font-family: "Athiti";
+  color: black;
+  padding-left: 25px;  
+  margin: none;
+  text-align: center;
+}
 .header {
   font-family: 'Athiti';
   text-align: center;
   color: black;
   text-decoration: bold;
+  font-size: 20px;
 }
