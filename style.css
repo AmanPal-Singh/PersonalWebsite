@@ -157,7 +157,7 @@ ul{
   font-size: 14px;
   padding: 5rem 0 4rem;
   text-align: center;
-  color: rgba(255,255,255,0.2)
+  color: rgba(0,0,0,0.2)
 }
 
 .footer-logo{
@@ -172,4 +172,5 @@ ul{
   font-size: 1.3rem;
   text-transform: uppercase;
   letters-spacing: 0.3rem;
+  color: white;
 }
