@@ -151,3 +151,26 @@ ul{
   text-decoration: bold;
   font-size: 25px;
 }
+
+
+.footer{
+  font-family: 'Athiti';
+  font-size: 14px;
+  padding: 5rem 0 4rem;
+  text-align: center;
+  color: rgba(255,255,255,0.2)
+}
+
+.footer-logo{
+  display: inline-block;
+}
+
+.footer-social{
+  list-style: none;
+  margin-top: 2rem;
+  margin-left: 0px;
+  font-family: 'Athiti';
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letters-spacing: 0.3rem;
+}
