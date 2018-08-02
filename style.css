@@ -78,7 +78,8 @@ ul{
   padding: 0;
 }
 
-.box li  display: inline-block;
+.box li{
+  display: inline-block;
   margin: 6px;
   list-style: none;
 }
