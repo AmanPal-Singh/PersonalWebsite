@@ -151,7 +151,7 @@ ul{
   text-decoration: bold;
   font-size: 25px;
 }
-.header: after{
+.header:after{
   content:""; 
   background: black; 
   position: absolute; 
