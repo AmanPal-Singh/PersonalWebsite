@@ -147,7 +147,7 @@ ul{
 .header {
   font-family: 'Athiti';
   text-align: center;
-  color: black;
+  color: rgba(214,10,0,1);
   text-decoration: bold;
   font-size: 25px;
 }
