@@ -150,8 +150,15 @@ ul{
   color: black;
   text-decoration: bold;
   font-size: 25px;
-  border-bottom: 1px solid;
-  padding-bottom: 3px;
+}
+.header: after{
+  content:""; 
+  background: black; 
+  position: absolute; 
+  bottom: 0; 
+  width: 50%; 
+  height: 1px;
+
 }
 
 .arrow{
