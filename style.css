@@ -78,8 +78,7 @@ ul{
   padding: 0;
 }
 
-.box li{
-  display: inline-block;
+.box li  display: inline-block;
   margin: 6px;
   list-style: none;
 }
@@ -112,7 +111,7 @@ ul{
 .aboutpicture{
   position: absolute;
   left: 0px;
-  width: 50%;
+  width: 37%;
   height: 100vh;
   text-align: center;
 }
@@ -125,7 +124,7 @@ ul{
 .text-block{
   position: absolute;
   right: 0px;
-  width: 50%;
+  width: 63%;
   height: 100vh;
   
 }
