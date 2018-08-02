@@ -151,15 +151,6 @@ ul{
   text-decoration: bold;
   font-size: 25px;
 }
-.header:after{
-  content:""; 
-  background: black; 
-  position: absolute; 
-  bottom: 0; 
-  width: 50%; 
-  height: 1px;
-
-}
 
 .arrow{
   cursor: pointer;
