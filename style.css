@@ -50,8 +50,8 @@ body{
 
 .box-img{
   border-radius: 100%;
-  width: 200px;
-  height: 200px;
+  width: 30vh;
+  height: 30vh;
   padding-top: 25px;
 }
 
@@ -62,15 +62,15 @@ body{
 }
 
 .box h3{
-  font-size: 2vh;
+  font-size: 4vh;
   letter-spacing: 3px;
   font-weight: 100;
 }
 
-.box p{
-  text-align: justify;
-  margin-left: 10px;
-  margin-right: 10px;
+.box h4{
+  font-size: 2vh;
+  letter-spacing: 3px;
+  font-weight: 100;
 }
 
 ul{
@@ -87,7 +87,7 @@ ul{
 .box li a{
   color: white;
   text-decoration: none;
-  font-size: 60px;
+  font-size: 10vh;
   transition: all ease-in-out 250ms;
 }
 
