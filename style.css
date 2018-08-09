@@ -74,7 +74,7 @@ body{
   font-weight: 100;
 }
 
-ul{
+.box ul{
   margin: 0;
   padding: 0;
 }
@@ -185,4 +185,27 @@ ul{
   }
 }
 
-
+.topnavbar{
+  background-color: rgba(0,0,0,1);
+  overflow: hidden
+  height: 4vh;
+}
+.topnavbar a{
+  float: centre
+  color: rgba(0,0,0,0.65);
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnavbar a:hover{
+}
+.topnavbar a.active {
+    color: white;
+}
+.topnavbar li{
+  display: inline;
+}
