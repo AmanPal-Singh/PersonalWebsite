@@ -186,23 +186,27 @@ body{
 }
 
 .topnavbar{
-  background-color: rgba(0,0,0,1);
+  background-color: rgba(0,0,0,0.95);
   overflow: hidden;
-  height: 4vh;
+  height: 10vh;
   text-align: center;
+  width: 100vw;
 }
+
 .topnavbar a{
+  font-family: 'Athiti';
   float: center;
-  color: rgba(0,0,0,0.65);
+  color: rgba(255,255,255,1);
   text-align: center;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 5vw;
+  padding-right: 5vw;
   padding-top: 0px;
   padding-bottom: 0px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 3vh;
 }
 .topnavbar a:hover{
+  color: white;
 }
 .topnavbar a.active {
     color: white;
@@ -213,4 +217,20 @@ body{
 .topnavbar ul{
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+  position: fixed;
+    width: 100vw;
+}
+
+.navbar-fixed li{
+  display: inline;
+  padding-top: 4vh;
+}
+
+.about-height{
+  margin-top: 15vh;
 }
