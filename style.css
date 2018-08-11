@@ -215,8 +215,8 @@ body{
   display: inline;
 }
 .topnavbar ul{
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
 
 .navbar-fixed {
@@ -232,5 +232,5 @@ body{
 }
 
 .about-height{
-  margin-top: 15vh;
+  margin-top: 13vh;
 }
