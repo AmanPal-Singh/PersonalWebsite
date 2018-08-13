@@ -190,7 +190,7 @@ body{
   overflow: hidden;
   height: 10vh;
   text-align: center;
-  width: 100vw;
+  width: 100%;
 }
 
 .topnavbar a{
