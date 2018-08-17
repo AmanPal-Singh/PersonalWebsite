@@ -7,11 +7,11 @@ $(document).ready(function() {
       console.log(bannerHeight);
     if ($(window).scrollTop() > bannerHeight) {
       $('#navbar').addClass('navbar-fixed');
-      $('#about').addClass('about-height');
+      $('#about-section').addClass('about-height');
     }
     if ($(window).scrollTop() < bannerHeight) {
       $('#navbar').removeClass('navbar-fixed');
-      $('#about').removeClass('about-height');
+      $('#about-section').removeClass('about-height');
     }
   });
 });
