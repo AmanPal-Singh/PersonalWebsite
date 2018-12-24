@@ -1,85 +1,141 @@
+<!-- HOME -->
 
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<script src="https://use.fontawesome.com/d1341f9b7a.js"> </script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-    	<script src="script.js"></script>
-	
-	
-		<link rel="stylesheet" href="style.css">
-		<link href='https://fonts.googleapis.com/css?family=Athiti' rel='stylesheet'>
-		<title> Aman Singh </title>
-	</head>
+<html lang="en">
+<head> 
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="Widtdevice-wdth, initial-scale=1">
+	<meta name="descripition" content="Aman Singh's Personal Website">
+	<meta name="author" content="Aman Singh">
 
-<div class= "background" id= "banner"> 
-	<div class= "s-box">
-		<div class="emptylefthalf"> </div>
-		<div class="box">
-			<img  src="amanpic.png" alt="" class="box-img">
-			<h1>Aman Singh</h1>
-			<h3> Computer Science </h3>
-			<h4> University of Waterloo 2023 </h4>
-			<ul>
-				<li> <a href= "https://www.linkedin.com/in/aman-pal-singh/"  target= "_blank"> <i class="fa fa-linkedin"></i> </a> </li>
-				<li> <a href= "https://github.com/AmanPal-Singh"  target= "_blank"> <i class="fa fa-github"></i> </a> </li>
-				<li> <a href= "mailto:amanpal_singh@outlook.com"  target= "_blank"> <i class="fa fa-envelope-square"></i> </a> </li>
+
+	<title>home</title>
+
+	<!-- Custom Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Niramit|Poppins|Oxygen|Raleway|Lato|Cabin|Montserrat|Megrim|Questrial|Josefin+Sans|Muli|Roboto" rel="stylesheet">
+	<script src="https://use.fontawesome.com/d1341f9b7a.js"> </script>
+	<!--font awesome-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+	<!-- References to CSS -->
+	<link href="css\index.css" rel="stylesheet">
+	<link href="css\scaling.css" rel="stylesheet">
+	<link href="css\general.css" rel="stylesheet">
+
+	<!-- Favicon -->
+	<link rel="favicon" href="assets/favicon.png" type="image/png">
+
+	<!-- References to js -->
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+</head>
+
+<body> 
+	<!-- Main Screen -->
+	<header class="welcome darken" id="welcomesection">
+		<img id= "profilepic" class="circle profilepic" src="assets\profilepic.png">
+		<h1 id="name" class="title inline hidden-mobile">Aman Singh</h1>
+	</header>
+
+	<!-- Nav Bar -->
+	<nav id = "nav" class="navBar hidden-mobile">
+	        <ol class="mainNav">
+	        	<li><a class= "navEl" href="#top">Home</a></li>
+	        	<li><a class= "navEl" href="#about">About</a></li>
+	        	<li><a class= "navEl" href="#experience">Experience</a></li>
+	        	<li><a class= "navEl" href="#resume">Resume</a></li>
+	        	<li><a class= "navEl" href="#contact">Contact</a></li>
+	        </ol>
+	</nav>
+
+	<nav id= "navMobile" class="navBarMobile hidden-smallscreen hidden-largescreen">
+		<div id= "Links">
+			<a class= "navElMobile" href="#top">Home</a>
+			<a class= "navElMobile" href="#about">About</a>
+			<a class= "navElMobile" href="#experience">Experience</a>
+			<a class= "navElMobile" href="#resume">Resume</a>
+			<a class= "navElMobile" href="#contact">Contact</a>
+		</div>
+	</nav>
+
+	<!-- Content Begins -->
+
+	<!-- About Me Section-->
+
+	<section class= "partstyle styleRed1" id="about">
+		<h1 class="sectionHeader">About Me</h1>
+		<hr class="hr1" style="background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));">
+		<p>
+			Hi! I'm Aman Singh!
+		</p>
+		<p class="indent">
+			I'm a Computer Science student at the University of Waterloo. My interests include machine learning & artifical intelligence, data science, embedded systems, and robotics. I love problem solving and hope to continue advancing my knowledge with a variety of technologies and languages.
+
+When I'm not programming I'm exploring my other interests and activites such as hiking, travelling, photography, philosophy, music and reading.
+		</p>
+		<br>
+	</section>
+
+	<!-- Experience -->
+
+	<section class="partstyle styleRed2" id="experience">
+		<h1 class="sectionHeader">Work Experience</h1>
+		<hr class="hr1" style="background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));">
+		<div style="position: relative; height: auto; min-height: 60vh;" class="hidden-mobile">
+			<img src="assets/MLF.png" class="employPic">
+			<h3 class="employTitle">Maple Leaf Foods </h3>
+			<p class="employText"> (Summer 2018) <br> • Worked to troubleshoot PLCs, HMIs, VFDs,and network issues with machinery and equipment in the facility such as FANUC Robots, boilers, VAT washers, andconveyor systems <br>
+			• Worked to troubleshoot pattern and visualrecognition issues with with
+			packaging and pick up robotic arms using RS Logix 5000 and HMI interfaces
+			<br>
+			• Assisted automation project to educate electricians on how to troubleshoot
+			PLC’s and drivers using RS Logix 5000 software</p> 
+			<h4 class="employPosition"> Automation and Controls Intern </h4>
+		</div>
+		<div class="hidden-largeScreen hidden-smallScreen">
+			<h3 class="employTitleMobile">Maple Leaf Foods</h3>
+			<h4 class="employPositionMobile"> Automation and Controls Intern </h4>
+			<p class="employTextMobile">(Summer 2018) <br> POINTS</p> 
+		</div>
+	</section>
+
+
+	<!-- Resume -->
+
+	<section id="resume" class="partstyle styleRed1" id="resume">
+		<h1 class="sectionHeader">Resume</h1>
+		<hr class="hr1" style="background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));">
+		<p class="center">
+			<embed style="width: 75%; height: 37vw;" class="hidden-mobile" src="assets/AmanSinghResume.pdf" title="Resume-PDF"></embed>
+		</p>
+		<p class="center">
+			<a class="text-btn hidden-largeScreen hidden-smallScreen" href="assets/AmanSinghResume.pdf" download="AmanSingh_Resume"><i class="fas fa-file"></i> Download Resume </a>
+		</p>
+	</section>
+
+	<!-- Footer -->
+	<section class="partstyle stylePurple1 footer">
+		<div class="row">
+			<p style="margin-left: auto; margin-right: auto; float: none;"> Aman SinghⒸ 2018 </p>
+		</div>
+		<div class="row">
+			<ul style="margin-left: auto; margin-right: auto; float: none;">
+					<li> <a href= "https://www.linkedin.com/in/aman-pal-singh/"  target= "_blank"> <i class="fab fa-linkedin"></i> </a> </li>
+					<li> <a href= "https://github.com/AmanPal-Singh"  target= "_blank"> <i class="fab fa-github"></i> </a> </li>
+					<li> <a href= "mailto:amanpal_singh@outlook.com"  target= "_blank"> <i class="fa fa-envelope-square"></i> </a> </li>
 			</ul>
-			<a id="arrow-button" href ="#about">
-				<div class="arrow bounce">
-				</div>
-			</a>
 		</div>
-	</div>
-</div>
-
-
-<body>
-<div class="topnavbar" id= "navbar">
-	<ul>
-	<li><a  href ="#about">ABOUT</a></li>
-	<li><a  href="#projects">PROJECTS</a></li>
-	<li><a  href="AmanSinghResume.pdf" target="_blank">RESUME</a></li>
-	<li><a  href="blog.html" target="_blank">BLOG</a></li>
-	</ul>
-</div>
-<div class = "section-about" id="about-section">
-	<div class = "header">
-		<h3 id="about">ABOUT</h3>
-	</div>
-
-
-	<!-- Table -->
-	<div class = "aboutpicture">
-		<img src = "amanpic.png" alt = "" class = "about-image">
-	</div>
-	<div class = "text-block">
-		<div class ="section-text">
-			<p> Hi! I'm Aman. </p>
-			<p> I'm a Computer Science student at the University of Waterloo. My interests include machine learning & artifical intelligence, data science, embedded systems, and robotics. I love problem solving and hope to continue advancing my knowledge with a variety of technologies and languages. </p>
-			<p> When I'm not programming I'm exploring my other interests and activites such as hiking, travelling, photography, philosophy, music and reading.
-			</p>
-		</div>
-	</div>
-</div>
-
-<div class = "section-proj">
-	<div class = "header">
-		<h3 id="projects">PROJECTS</h3>
-	</div>
-</div>
-
-<div class = "section-work">
-	<div class = "header">
-		<h3 id="projects">WORK EXPERIENCE</h3>
-	</div>
-</div>
-
-
-
+	</section>
 </body>
 </html>
+
+
+
+
+
+
+
+
 
 
