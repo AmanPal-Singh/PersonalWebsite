@@ -1,0 +1,169 @@
+/*---------HEADER------------*/
+
+.title{
+	position: absolute;
+	right: 4vw;
+	bottom: calc(50% - 10vmax );
+	font-size: 10vmax;
+	z-index: -1;
+	font-family: "Raleway";
+	color: #d6d6d6;
+}
+
+/*---------IMAGES------------*/
+
+.welcome{
+	position: relative;
+	height: 85vmin;
+	z-index: -5;
+	background: url(../assets/wallpaper2.jpg) no-repeat fixed center;
+	background-size: cover;
+}
+
+.profilepic{
+	position: absolute;
+	bottom: calc(50% - (32vmax / 2));
+	left: 4vw;
+	width: 32vmax;
+	height: 32vmax;
+	z-index: 1;
+}
+
+/*---------SECTION STYLES------------*/
+
+
+.employPic{
+	width: 12vw;
+	height: 12vw;
+	position: relative;
+	top: 30px;
+	display: inline-block;
+}
+.employText{
+	position: absolute;
+	left: 15vw;
+	top: 18vh;
+}
+.emplyoTextMobile{
+	position: relative;
+}
+.employTitle{
+	position: absolute;
+	top: 1vh;
+	font-size: 30pt;
+	left: 15vw;
+}
+.employTitleMobile{
+	position: relative;
+	font-size: 20pt
+}
+.employPosition{
+	position: absolute;
+	top: 8vh;
+	font-size: 25pt;
+	left: 15vw;
+}
+.employPositionMobile{
+	position: relative;
+	font-size: 15pt
+}
+.text-btn{
+	text-decoration: none;
+	font-family: "Montserrat";
+	text-transform: uppercase;
+	font-size: 18pt;
+	background: transparent;
+	border: #232323 3px solid;
+	padding: 15px;
+	text-align: left;
+	color: #232323;
+	transition: 0.2s all ease;
+}
+
+.flexItem p{
+	margin-left: 30px;
+}
+.flexBox .flexItem{
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	align-content: space-around;
+	align-items: center;
+	width: 100%;
+	font-size: 20pt;
+	flex: 0 0 30%;
+	max-width: 30%;
+	padding-bottom: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	/*border: 5px solid black;*/
+}
+@media(max-width: 1100px){
+	.flexBox .flexItem{
+		flex: 0 0 48%;
+		max-width: 48%
+	}
+}
+@media(max-width: 700px){
+	.flexBox .flexItem{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+}
+.flexBox{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: space-around;
+	justify-content: space-between;
+	width: 100%;
+	/*background-color: red;*/
+}
+.iconDot{
+	position: relative;
+	display: inline-block;
+	background-color: #c254f9;
+	border-radius: 100%;
+	min-height: 80px;
+	min-width: 80px;
+}
+
+/*------FOOTER-----*/
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 10pt;
+}
+.fa{
+  font-size: 5vh;
+  padding: 0;
+}
+.fab{
+  font-size: 5vh;
+  padding: 0;
+}
+.footer ul{
+  margin: 0;
+  padding: 0;
+}
+
+.footer li{
+  display: inline-block;
+  margin: 4px;
+  list-style: none;
+  padding: 0;
+}
+
+.footer li a{
+  color: white;
+  text-decoration: none;
+  font-size: 10vh;
+  transition: all ease-in-out 250ms;
+}
+
+.footer li a:hover{
+  color: #b9b9b9;
+}

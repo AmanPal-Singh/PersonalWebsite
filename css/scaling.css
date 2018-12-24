@@ -1,0 +1,45 @@
+/*--------------------- SCALING -----------------------*/
+@media (max-width: 1000px) and (min-width: 800px){
+	.hidden-smallScreen{
+		display: none !important;
+	}
+}
+@media (min-width: 1000px){
+	.hidden-largeScreen{
+		display: none !important;
+	}
+}
+@media (min-width: 800px){
+	section p{
+		line-height: 30px;
+	}
+	.describeMe li{
+		font-size: 20pt;
+	}
+}
+@media (max-width: 799px){
+	section p{
+		line-height: 20px;
+	}
+	.describeMe li{
+		font-size: 14pt;
+	}
+	.pfp{
+		position:absolute;
+		bottom: calc(40% - (60vmin / 2));
+		left: calc(50% - (60vmin / 2));
+		width: 60vmin;
+		height: 60vmin;
+		z-index: -1;
+	}
+	.hidden-mobile{
+		display: none !important;
+	}
+	.employTitle{
+		font-size: 20pt;
+	}
+	.text-btn{
+		font-size: 14pt;
+		padding: 8px;
+	}
+}
