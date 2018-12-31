@@ -24,7 +24,7 @@ body{
 		line-height: 30pt;
 	}
 	.sectionHeader{
-		font-family: Monsterrat;
+		font-family: "Montserrat", sans-serif;
 		font-size: 40pt;
 	}
 }
@@ -38,7 +38,7 @@ body{
 		line-height: 20pt;
 	}
 	.sectionHeader{
-		font-family: Monsterrat;
+		font-family: "Montserrat", sans-serif;
 		font-size: 24pt;
 	}
 }
@@ -119,7 +119,7 @@ nav{
 	height: 200px;
 }
 .pageHeaderText{
-	font-family: "Montserrat";
+	font-family: "Montserrat", sans-serif;
 	width: 100%;
 	font-size: 15vw;
 	position: relative;

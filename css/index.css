@@ -14,7 +14,7 @@
 
 .welcome{
 	position: relative;
-	height: 85vmin;
+	height: 100vmin;
 	z-index: -5;
 	background: url(../assets/wallpaper2.jpg) no-repeat fixed center;
 	background-size: cover;
@@ -27,6 +27,9 @@
 	width: 32vmax;
 	height: 32vmax;
 	z-index: 1;
+}
+img {
+	vertical-align: middle;
 }
 
 /*---------SECTION STYLES------------*/
@@ -129,6 +132,22 @@
 	min-width: 80px;
 }
 
+/*------RESUME-----*/
+.img-responsive {
+    display: block;
+    max-width: 80%;
+    height: auto;
+ }
+ #img-resume {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(0.95,0.95);
+    margin: auto;
+}
+#img-resume:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1,1);
+}
 /*------FOOTER-----*/
 .footer {
   left: 0;

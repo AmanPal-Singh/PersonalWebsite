@@ -5,7 +5,7 @@
 <head> 
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="Widtdevice-wdth, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="descripition" content="Aman Singh's Personal Website">
 	<meta name="author" content="Aman Singh">
 
@@ -22,6 +22,7 @@
 	<link href="css\index.css" rel="stylesheet">
 	<link href="css\scaling.css" rel="stylesheet">
 	<link href="css\general.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
 	<!-- Favicon -->
 	<link rel="favicon" href="assets/favicon.png" type="image/png">
@@ -57,9 +58,6 @@
 			<a class= "navElMobile" href="#resume">Resume</a>
 			<a class= "navElMobile" href="#contact">Contact</a>
 		</div>
-		<div id="navTogID" class = "togNavBtn">
-			<i class="fas fa-bars" style="padding: 15px;"></i>
-		</div>
 	</nav>
 
 	<!-- Content Begins -->
@@ -73,7 +71,9 @@
 			Hi! I'm Aman Singh!
 		</p>
 		<p class="indent">
-			I'm a blah blah blah interests and stuff
+			I'm a Computer Science student at the University of Waterloo. My interests include machine learning & artifical intelligence, data science, embedded systems, and robotics. I love problem solving and hope to continue advancing my knowledge with a variety of technologies and languages.
+
+When I'm not programming I'm exploring my other interests and activites such as hiking, travelling, photography, philosophy, music and reading.
 		</p>
 		<br>
 	</section>
@@ -81,7 +81,7 @@
 	<!-- Experience -->
 
 	<section class="partstyle styleRed2" id="experience">
-		<h1 class="sectionHeader">Experience</h1>
+		<h1 class="sectionHeader">Work Experience</h1>
 		<hr class="hr1" style="background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));">
 		<div style="position: relative; height: auto; min-height: 60vh;" class="hidden-mobile">
 			<img src="assets/MLF.png" class="employPic">
@@ -113,7 +113,10 @@
 		<h1 class="sectionHeader">Resume</h1>
 		<hr class="hr1" style="background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));">
 		<p class="center">
-			<embed style="width: 75%; height: 37vw;" class="hidden-mobile" src="assets/AmanSinghResume.pdf" title="Resume-PDF"></embed>
+			<a href="assets/AmanSinghResume.pdf" class="hidden-mobile">
+				<img src="assets/Resume.png" class="img-responsive" id="img-resume" alt="Responsive image">
+			</a>
+			<!--<embed style="width: 75%; height: 37vw;" class="hidden-mobile" src="assets/Resume.pdf" title="Resume-PDF"></embed>-->
 		</p>
 		<p class="center">
 			<a class="text-btn hidden-largeScreen hidden-smallScreen" href="assets/AmanSinghResume.pdf" download="AmanSingh_Resume"><i class="fas fa-file"></i> Download Resume </a>
@@ -128,6 +131,11 @@
 					<li> <a href= "mailto:amanpal_singh@outlook.com"  target= "_blank"> <i class="fa fa-envelope-square"></i> </a> </li>
 			</ul>
 	</section>
+
+
+	<!-- Bootstrap JS --> 
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/"	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
 </html>
 
