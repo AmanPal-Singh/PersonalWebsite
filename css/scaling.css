@@ -1,5 +1,5 @@
 /*--------------------- SCALING -----------------------*/
-@media (max-width: 1000px) and (min-width: 800px){
+@media (max-width: 1000px) and (min-width: 600px){
 	.hidden-smallScreen{
 		display: none !important;
 	}
@@ -9,7 +9,7 @@
 		display: none !important;
 	}
 }
-@media (min-width: 800px){
+@media (min-width: 600px){
 	section p{
 		line-height: 30px;
 	}
@@ -17,7 +17,7 @@
 		font-size: 20pt;
 	}
 }
-@media (max-width: 799px){
+@media (max-width: 599px){
 	section p{
 		line-height: 20px;
 	}

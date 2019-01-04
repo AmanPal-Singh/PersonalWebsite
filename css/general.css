@@ -8,14 +8,14 @@ html{
 
 body{
 	margin: 0;
-	font-family: "Muli";
+	font-family: "Raleway";
 	width: 100%;
 	height: 100%;
 	overflow-x: hidden;
 	color: #333333;
 }
 
-@media(min-width: 800px){
+@media(min-width: 600px){
 	body{
 		font-size: 18pt;
 	}
@@ -26,12 +26,14 @@ body{
 	.sectionHeader{
 		font-family: "Montserrat", sans-serif;
 		font-size: 40pt;
+		font-weight: 600;
+		padding-top: 3vh;
 	}
 }
 
-@media(max-width: 799px){
+@media(max-width: 599px){
 	body{
-		font-size: 16pt;
+		font-size: 14pt;
 	}
 	.indent{
 		text-indent: 2em;
@@ -40,6 +42,7 @@ body{
 	.sectionHeader{
 		font-family: "Montserrat", sans-serif;
 		font-size: 24pt;
+		font-weight: 600;
 	}
 }
 
@@ -54,8 +57,8 @@ nav{
 	position:relative;
 	padding-top: 1vh;
 	padding-bottom: 5vh;
-	padding-right: 12vw;
-	padding-left: 12vw;
+	padding-right: 18vw;
+	padding-left: 18vw;
 	height: auto;
 	display: block;
 	clear: both;
