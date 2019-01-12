@@ -53,7 +53,21 @@ nav{
 	left: 0px;
 }
 
-.partstyle{
+.partstyle1{
+	position:relative;
+	padding-top: 1vh;
+	padding-bottom: 5vh;
+	padding-right: 15vw;
+	padding-left: 15vw;
+	margin-left: 15vw;
+	margin-right: 15vw;
+
+	height: auto;
+	display: block;
+	clear: both;
+}
+
+.partstyle2{
 	position:relative;
 	padding-top: 1vh;
 	padding-bottom: 5vh;
@@ -211,35 +225,11 @@ a.navElMobile{
 }
 
 /*-------Color Styles--------*/
-.styleOrange1{
-	background-color: #f2dfb5;
-}
-.styleOrange2{
-	background-color: #f2d598;
-}
-.styleRed1{
+.styleRed{
 	background-color: #f9eaf1;
 }
-.styleRed2{
-	background-color: #e5c9d6;
-}
-.stylePurple1{
+.stylePurple{
 	background-color: #e6d2f2;
-}
-.stylePurple2{
-	background-color: #d9c0e8;
-}
-.styleBlue1{
-	background-color: #dee8ed;
-}
-.styleBlue2{
-	background-color: #c9dbe5;
-}
-.styleYellow1{
-	background-color: #e7ffc4;
-}
-.styleYellow2{
-	background-color: #d1e0b1;
 }
 .styleWhite{
 	background-color: white;
