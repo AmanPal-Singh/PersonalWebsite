@@ -6,16 +6,24 @@ body{
 }
 /*---------HEADER------------*/
 
-.title{
+.title1{
 	position: absolute;
-	right: 4vw;
+	left: 31vw;
 	bottom: calc(50% - 10vmax );
 	font-size: 10vmax;
 	z-index: -1;
 	font-family: "Raleway";
-	color: #d6d6d6;
+	color: #FFFFFF;
 }
-
+.title2{
+	position: absolute;
+	left: 4vw;
+	bottom: calc(50% - 18vmax );
+	font-size: 10vmax;
+	z-index: -1;
+	font-family: "Raleway";
+	color: #FFFFFF;
+}
 /*---------IMAGES------------*/
 
 .welcome{
@@ -26,18 +34,14 @@ body{
 	background-size: cover;
 }
 
-.profilepic{
-	position: absolute;
-	bottom: calc(50% - (32vmax / 2));
-	left: 8vw;
-	width: 25vmax;
-	height: 25vmax;
-	z-index: 1;
-}
 img {
 	vertical-align: middle;
 }
-
+.profilepic{
+	right: 0px;
+	height: 100vh;
+	padding-left: 66vw;
+}
 /*---------SECTION STYLES------------*/
 
 .text-btn{

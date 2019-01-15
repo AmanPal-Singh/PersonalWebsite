@@ -1,5 +1,5 @@
 header{
-	padding-top: 5em; 
+	padding-top: 0em; 
 }
 
 html{
@@ -102,7 +102,7 @@ nav{
 .mainNav{
 	list-style-type: none;
 	position: relative;
-	float: right;
+	float: left;
 	right: 20px;
 }
 .mainNav li{
