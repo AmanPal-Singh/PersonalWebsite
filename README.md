@@ -1,8 +1,7 @@
-# Personal Website
+# Personal Website - https://www.amansingh.co
 
-This is my personal portfolio webpage made using Bootstrap, JS, HTML, and CSS.
+This is my personal portfolio webpage made using ReactJS!
 
-Hosted on http://www.amansingh.co
+Hosted on https://www.amansingh.co
 
-I am currently working on updating the website using React!
 
