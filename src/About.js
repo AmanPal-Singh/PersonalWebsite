@@ -1,5 +1,6 @@
 import React from "react"
 import Fade from 'react-reveal/Fade';
+import Flip from 'react-reveal/Flip';
 import Aman from './assets/aman.jpg'
 import './App.scss'
 function About(props) {
@@ -15,7 +16,11 @@ function About(props) {
                 </Fade>
             </div>
             <div class ="column">
-                <h1 className="introduction"> a quick introduction... </h1>
+                <h1 className="introduction"> 
+                  <Flip top cascade>
+                    a quick introduction...
+                  </Flip> 
+                </h1>
                 <p className ="introduction"> 
                   I'm a computer science student at the University of Waterloo majoring in Computer Science and Data Science. I'm a problem solver who loves to leverage technology to design & develop efficient solutions. Outside of technology, I have an interest in bouldering, cycling, philosophy and music.  
                   <br/>

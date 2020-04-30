@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BrowserRouter, Route, Link } from 'react-router-dom'; 
+import { HashRouter, Route, Link } from 'react-router-dom'; 
 import ReactGA from 'react-ga';
 import {createBrowserHistory} from 'history';
 import About from './About.js'; 
@@ -23,7 +23,7 @@ history.listen(location => {
 
 function App() {
   return (
-    <BrowserRouter history = {history}>
+    <HashRouter basename="/">
       <div className="App">
   
         {/* Set up the Router */}
@@ -49,7 +49,7 @@ function App() {
   
       <Footer></Footer>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
